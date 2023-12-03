@@ -14,7 +14,7 @@ const ProjectCard = ({ name, date, url, info, img }) => {
         </div>
       </div>
       <div className={styles.details}>
-        <div className={styles.nameDate}><h6>{name}</h6><h6>{date}</h6></div>
+        <div className={styles.nameDate}><h6 className={styles['project-name']}>{name}</h6><h6>{date}</h6></div>
         <p className={styles.info}>{info}</p>
       </div>
     </div>

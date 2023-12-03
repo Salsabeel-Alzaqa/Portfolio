@@ -51,8 +51,12 @@
 
 .nameDate {
     margin-bottom: 5px;
+    width:100%;
     display:flex;
     justify-content: space-between;
+}
+.project-name{
+    width:55%;
 }
 
 .info {
