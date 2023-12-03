@@ -27,6 +27,7 @@
         flex-direction: column;
         gap:25px;
         min-height: max-content;
+        overflow-x: hidden;
     }
     .info {
         justify-content:center;
