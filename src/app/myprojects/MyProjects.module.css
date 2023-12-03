@@ -1,0 +1,7 @@
+.projects-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    gap:25px;
+}

@@ -1,0 +1,14 @@
+.download {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: max-content;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}

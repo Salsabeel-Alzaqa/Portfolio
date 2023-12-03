@@ -1,0 +1,13 @@
+.titleContainer {
+    background-color:#333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: max-content;
+}
+
+.titleText {
+    color: white;
+    margin: 0;
+}

@@ -1,0 +1,64 @@
+.projectCard {
+    width: 500px;
+    height: 550px;
+    overflow: hidden;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.imageContainer:hover .overlay {
+    opacity: 1;
+}
+
+.move {
+    padding: 10px 15px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.move:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+.details {
+    padding: 10px;
+    height: max-content;
+}
+
+.nameDate {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info {
+    margin-top: 5px;
+}
+@media (max-width: 900px) {
+    .projectCard {
+        width: 100%;
+    }
+}

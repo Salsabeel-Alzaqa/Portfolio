@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 70px;
+}
+.link{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:15px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  margin-left: 270px;
+  padding: 20px;
+}
+@media (max-width: 900px) {
+  .content {
+    margin-left: 0;
+  }
+}

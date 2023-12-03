@@ -17,6 +17,7 @@
 }
 
 body {
+  font-size: 16px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +25,26 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+h4{
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+h6{
+  font-size: 1rem;
+  font-weight: bold;
+}
+p {
+  color: #bbb;
 }
