@@ -14,7 +14,7 @@ export const useTypewriter = (text) => {
         i = -1;
         setDisplayText('');
       }
-    }, 100);
+    }, 200);
     return () => {
       clearInterval(typingInterval);
     };

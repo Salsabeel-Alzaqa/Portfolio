@@ -1,11 +1,7 @@
 .blob-effect {
     position: relative;
     width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    height: 300px;   
 }
 
 .blob-effect span:nth-child(1) {
