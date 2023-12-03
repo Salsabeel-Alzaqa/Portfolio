@@ -3,4 +3,5 @@
     justify-content: flex-start;
     flex-direction: column;
     gap:15px;
+    height: max-content;
 }

@@ -22,8 +22,9 @@
 }
 @media (max-width: 900px) {
     .home{
+        margin-top: 25px;
         flex-direction: column;
-        height: 100%;
+        height:auto;
         gap:25px;
     }
     .info {
