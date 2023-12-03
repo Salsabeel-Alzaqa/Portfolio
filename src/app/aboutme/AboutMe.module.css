@@ -29,6 +29,8 @@
     display: flex;
     justify-content: space-between;
     padding-right: 15%;
+    gap:5px;
+    flex-wrap: wrap;
 }
 .about-details-column
 {
