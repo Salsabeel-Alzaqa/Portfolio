@@ -24,7 +24,6 @@
     .home{
         margin-top: 25px;
         flex-direction: column;
-        height:auto;
         gap:25px;
     }
     .info {
