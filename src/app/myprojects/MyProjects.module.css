@@ -5,3 +5,8 @@
     margin-top: 25px;
     gap:25px;
 }
+@media (max-width: 900px) {
+    .project {
+        padding-left: 25px;
+    }
+}

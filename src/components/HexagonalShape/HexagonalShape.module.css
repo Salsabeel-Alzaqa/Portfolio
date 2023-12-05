@@ -1,0 +1,33 @@
+.hexagon {
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    height: 6rem;
+    margin: 0 auto;
+    position: relative;
+    width: 3.5rem;
+    z-index: 1;
+}
+.hexagon:before,
+.hexagon:after {
+    background: inherit;
+    content: '';
+    height: inherit;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    z-index: -1;
+}
+
+.hexagon:before {
+    transform: rotate(-60deg);
+}
+
+.hexagon:after {
+    transform: rotate(60deg);
+}

@@ -1,0 +1,35 @@
+.programming-skill{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:20px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    flex-wrap: wrap;
+    width:100%;
+}
+.skill-label{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.progress-bar{
+    height:10px;
+    border-radius: 5px;
+    background-color:black;
+}
+.skill-progress{
+    height: 10px;
+    border-radius: 5px;
+    width:100%;
+    background-color:rgb(39, 37, 37);
+}
+@media (max-width: 780px) {
+    .programming-skill {
+            width: 100%;
+    }
+}
