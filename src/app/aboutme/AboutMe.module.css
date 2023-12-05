@@ -31,6 +31,7 @@
     gap:10px;
 }
 .about-details{
+    margin: 25px 0;
     display: flex;
     justify-content: space-between;
     padding-right: 15%;
@@ -68,4 +69,12 @@
     .space {
         padding-left: 25px;
     }
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 1;
 }

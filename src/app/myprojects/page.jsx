@@ -5,6 +5,7 @@ import pos from '../../assets/images/pos.avif';
 import bookstore from '../../assets/images/bookstore.png';
 import zone from '../../assets/images/zone.jpg';
 import styles from './MyProjects.module.css';
+import AnimatedSection from "@/components/AnimatedSection";
 const projects = [
   { id: 1, img: commerce, name: 'E-Commerce', info: 'This is a frontend E-Commerce website using React, that offers a user-friendly interface for browsing, purchasing, and managing Items. Users can explore, shop, login, add Items to their cart and wishlist, view Item details, and place orders.', url: 'https://github.com/Salsabeel-Alzaqa/E-Commerce-TAP-Final-Project/', date: '10/2023 - 11/2023' },
   { id: 2, img: pos, name: 'A POS', info: 'Developed a supermarket web application using HTML, CSS, Bootstrap, JavaScript,and React.js. Enabled real-time updates to the products and categories list through React.js, enhancing user experience.', url: 'https://github.com/Salsabeel-Alzaqa/A-point-of-sale-system-reactjs', date: '10/2022 - 11/2022' },
@@ -13,14 +14,16 @@ const projects = [
 ];
 const page = () => {
   return (
-    <main className={styles.project}>
-      <Title title={'MY PROJECTS'} />
-      <div className={styles['projects-container']}>
-        {projects.map((project, index) => (
-          <ProjectCard {...project} key={index} />
-        ))}
-      </div>
-    </main>
+    <AnimatedSection>
+      <main className={styles.project}>
+        <Title title={'MY PROJECTS'} />
+        <div className={styles['projects-container']}>
+          {projects.map((project, index) => (
+            <ProjectCard {...project} key={index} />
+          ))}
+        </div>
+      </main>
+    </AnimatedSection>
   )
 }
 
